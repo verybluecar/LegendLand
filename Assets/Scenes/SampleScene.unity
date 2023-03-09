@@ -752,12 +752,12 @@ PrefabInstance:
     - target: {fileID: 8665115101242714661, guid: 0027855f092151941ab9ea34b3f7ca00,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017659856
+      value: 0.000000017659858
       objectReference: {fileID: 0}
     - target: {fileID: 8665115101242714661, guid: 0027855f092151941ab9ea34b3f7ca00,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000016409463
+      value: -0.0000000016409465
       objectReference: {fileID: 0}
     - target: {fileID: 8665115101260217565, guid: 0027855f092151941ab9ea34b3f7ca00,
         type: 3}
@@ -1739,7 +1739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theCamera: {fileID: 330585543}
   secondCamera: {fileID: 0}
-  rotationSpeed: 100
+  rotationSpeed: 200
 --- !u!1 &1795469039
 GameObject:
   m_ObjectHideFlags: 0

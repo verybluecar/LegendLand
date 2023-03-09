@@ -16,6 +16,12 @@ public class RotateAwayFromCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+       
+
+    }
+    public void FixedUpdate()
+    {
         Vector3 targetPosition = theCamera.transform.position;
         Vector3 objectPosition = transform.position;
         Vector3 objectDirection = objectPosition - targetPosition;
@@ -23,7 +29,5 @@ public class RotateAwayFromCamera : MonoBehaviour
         targetRotation = Quaternion.Euler(0f, targetRotation.eulerAngles.y, 0f); // Set y component to zero
         float step = rotationSpeed * Time.deltaTime;
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, step);
-       
-
     }
 }
