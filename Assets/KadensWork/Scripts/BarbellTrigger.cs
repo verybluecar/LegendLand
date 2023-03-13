@@ -21,5 +21,10 @@ public class BarbellTrigger : MonoBehaviour
 
         }
     }
+    
+    public void cannychange()
+    {
+        canvas.SetActive(false);
+    }
 }
 
